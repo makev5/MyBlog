@@ -77,8 +77,7 @@ export default {
       },
       rules: {
         title: [
-          { required: true, message: '请输入标题', trigger: 'blur' },
-          { min: 3, max: 25, message: '长度在 3 到 25 个字符', trigger: 'blur' }
+          { required: true, message: '请输入标题', trigger: 'blur' }
         ],
         description: [
           { required: true, message: '请输入摘要', trigger: 'blur' }
